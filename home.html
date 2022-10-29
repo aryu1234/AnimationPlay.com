@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="AniMixPlay">
+<meta name="apple-mobile-web-app-title" content="AniMixPlay">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+<body style="background-color:rgb(25,25,25)">
+    <div id="coverlight" style="z-index:8"></div>
+    <div id="loadcontainer"><div class="loadindicator"></div></div>
+    <div class="toppart">
+    <div id="songContent" class="floattopsearch">
+        <a id="backiconhome" onclick="window.history.back()" href="index.html"><i class="glyphicon glyphicon-chevron-left"></i></a>
+<a id="homeicon" href="index.html"><i class="glyphicon glyphicon-home"></i></a>
+<div id="searchbox">
+<input type="text" style="display:none">
+<input type="password" style="display:none">
+<a href="home.html"><img class="webtitle" alt="AnimationPlay" src="img/Sitename_2.jpg"></a>
+<input class="form-control searchbar" placeholder="Search" autocomplete="off" id="q" type="search" onfocus="searchfocused()" onblur="searchblur()">
+<button id="searchbutton" onclick="searchfull()"><i class="glyphicon glyphicon-search"></i></button>
+ <a class="topmenubtn" title="Random anime" href="random.html"><i class="glyphicon glyphicon-random"></i>Random</a>
+<a class="topmenubtn" title="A-Z List" href="list.html">A-Z List</a>
+</div>
+<button id="menumobilebtn" onclick="showmobilemenu()"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
+<button id="showsearchbtn" onclick="togglesearch()"><i class="glyphicon glyphicon-search"></i></button>
+</div>
+</div>
+<div class="quicksearchcontainer"><div class="resultcontainer">
+<div id="fullresultbtn">
+<a onclick="searchfull()" href="home.html">Full</a><a onclick="searchE1()" href="home.html">GO</a><a onclick="searchE11()" href="home.html">AL</a></div>
+<ul class="quickresult"></ul>
+</div></div>
+<div class="middle">
+<div id="flexcontainer">
+<div class="leftside">
+<div id="pwaContainer">
+    
