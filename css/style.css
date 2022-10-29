@@ -25,7 +25,7 @@ button, .btn{ border: none !important;}
 #xheader_browser.active .header-btn{ color: #cae962;}
 /* footer */
 #xfooter-about{padding: 0 0 40px; margin-top: 80px;}
-#xfooter-about .about-text{ max-width: 800px; margin: 0 0 20px; line-height: 1.6em; font-size: 12px; opacity: .4}
+#xfooter-about .about-text{ max-width: 80px; margin: 0 0 20px; line-height: 1.6em; font-size: 12px; opacity: .4}
 #xfooter-about .copyright{margin-bottom: 0 !important; font-size: 13px;}
 /* page */
 #mw-top{ padding: 0; margin: 0; position: relative; z-index: 3; background-image: url("../img/onepiecesmall.jpg"); background-position: 50% 25%; background-size: cover;}
@@ -38,7 +38,7 @@ button, .btn{ border: none !important;}
 #mw-top .mwt-content .mwt-icon{position: absolute; right: 500px; bottom: 0; width: 600px;}
 #mw-top .mwt-content .mwt-icon img{width: 100%; height: auto;}
 #mw-top .mwh-logo{ margin-bottom: 30px;}
-#mw-top .mwh-logo .mwh-logo-div{ display: block; margin: 10px 10px 10px 800px;}
+#mw-top .mwh-logo .mwh-logo-div{ display: block; margin: 10px 10px 10px 80px;}
 #mw-top .mwh-logo .mwh-logo-div img{height: 60px; width: auto;}
 #mw-top .mwh-logo .mwh-logo-div ..mwh-logo-div2{ margin: 50px 80px;}
 .mw-heading{font-size: 1.8em; font-weight: 600; margin: 0 0 1em; color: #fff; line-height: 1.4em}
@@ -51,12 +51,12 @@ button, .btn{ border: none !important;}
 .xhashtag .item:last-of-type:after{content: ", ..."}
 #action-button{margin-bottom: 40px; background: #0d0dec; border-radius: 0px 0px 50px 50px;}
 #action-button .btn{display: block; border-radius: 0; padding: 15px 20px; font-weight: 600; background: none !important; color: #111 !important; border: none !important; box-shadow: none !important;}
-#xsearch.home-search{display: block !important; margin: 10px 10px 10px 600px; padding: 0 !important; width: 100%; background: none !important; position: relative !important; top: auto !important; left: auto !important; right: auto !important; bottom: auto !important;}
-#xsearch.home-search .search-input{height: 50px; font-weight: 400; border-radius: 30px; padding-left: 20px; padding-right: 20px; font-size: 16px; border: none !important;}
+#xsearch.home-search{display: block !important; margin: 10px 10px 10px 40px; padding: 0 !important; width: 100%; background: none !important; position: relative !important; top: auto !important; left: auto !important; right: auto !important; bottom: auto !important;}
+#xsearch.home-search .search-input{height: 50px; font-weight: 400; border-radius: 25px; padding-left: 10px; padding-right: 20px; font-size: 16px; border: none !important;}
 #xsearch.home-search .search-content .search-submit{height: 50px; text-align: center; position: absolute; top: 0; right: 0; bottom: 0; cursor: pointer; display: inline-block; width: 50px; background: #cae962; border-radius: 30px;}
 #xsearch.home-search .search-content .search-submit .search-icon i{color: #111; font-size: 20px; line-height: 50px;}
 #xsearch.home-search .search-content{position: relative; padding-right: 60px; margin-bottom: 30px;}
-.mw-buttons .btn-primary{font-weight: 600; background: #260de0 !important; color: #111 !important; padding: 15px 30px; transition: all .2s ease 0s; -webkit-transition: all .2s ease 0s; -moz-transition: all .2s ease 0s;}
+.mw-buttons .btn-primary{font-weight: 600; background: #260de0 !important; color: #111 !important; padding: 15px 20px; transition: all .2s ease 0s; -webkit-transition: all .2s ease 0s; -moz-transition: all .2s ease 0s;}
 .mw-buttons .btn-primary:hover{transform: scale(1.1); box-shadow: 0 0 20px rgba(97,222,86,.6) !important;}
 .mw-body .mwb-left{font-size: 14px; line-height: 1.5em;}
 .mw-body .mwb-left p{line-height: 1.4em; margin-bottom: 1em;}
