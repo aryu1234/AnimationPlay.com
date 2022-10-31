@@ -2,24 +2,24 @@
     <meta charset="UTF-8">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="AniMixPlay">
-    <meta name="apple-mobile-web-app-title" content="AniMixPlay">
+    <meta name="application-name" content="Animationplays">
+    <meta name="apple-mobile-web-app-title" content="Animationplays">
     <meta name="msapplication-starturl" content="/">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
     <meta property="og:image" content="images/chainsaw-man.png">
-    <meta property="og:title" content="Chainsaw Man - AniMixPlay">
+    <meta property="og:title" content="Chainsaw Man - Animationplays.com">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#191919">
     <meta name="twitter:card" content="summary">
-    <link rel="icon" href="images/icon.png">
-    <link rel="apple-touch-icon" href="images/icon.png">
     <link rel="manifest" href="/assets/s/manifest.json">
     <title>Chainsaw Man - AniMixPlay</title>
-    <script src="js/jquery.min.js" defer></script>
-    <link rel="stylesheet" href="css/fonts.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <script type="text/javascript" src="js/v1.min.js" defer></script>
-    <script type="text/javascript" src="js/common.min.js" defer></script>
+    <script src="chainsawmanjs/jquery.min.js" defer></script>
+    <link rel="icon" href="img/Sitename_2.jpg">
+    <link rel="apple-touch-icon" href="img/Sitename_2.jpg">
+    <link rel="stylesheet" href="chainsawmancss/fonts.min.css">
+    <link rel="stylesheet" type="text/css" href="chainsawmancss/style.min.css">
+    <script type="text/javascript" src="chainsawmanjs/v1.min.js" defer></script>
+    <script type="text/javascript" src="chainsawmanjs/common.min.js" defer></script>
     <meta property="og:description" content="Watch Chainsaw Man full episodes in HD quality for free."><meta name="description" content="Watch Chainsaw Man full episodes in HD quality for free.">
     </head>
     <body>
@@ -32,15 +32,13 @@
     <div id="searchbox">
     <input type="text" style="display:none">
     <input type="password" style="display:none">
-    <a href="/"><img class="webtitle" alt="AnimixPlay" src="images/logo.png"></a>
+    <a href="/"><img class="webtitle" alt="AnimixPlay" src="img/Sitename_2.jpg"></a>
     <input class="form-control searchbar" pattern=".{3,}" placeholder="Search" id="q" type="search" autocomplete="off" onfocus="searchfocused()" onblur="searchblur()">
     <button id="searchbutton" onclick="dosearchfromplayer()"><i class="glyphicon glyphicon-search"></i></button>
     <a class="topmenubtn" title="Random anime" href="/random"><i class="glyphicon glyphicon-random"></i>Random</a>
     <a class="topmenubtn" title="A-Z List" href="/list">A-Z List</a>
     </div>
-    <span id="usernametop"></span>
-    <button id="menumobilebtn2" onclick="showmobilemenu()"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
-    <button id="showsearchbtn" onclick="togglesearch()"><i class="glyphicon glyphicon-search"></i></button>
+    
     </div>
     </div>
     <div class="quicksearchcontainer absolutee"><div class="resultcontainer sanimepage"><div id="fullresultbtn">
@@ -69,6 +67,10 @@
     <select id="srcselect" onchange="srcChange()"></select>
     <div id="lowerplayerpage">
     <div id="aligncenter">
+        <div id="epslistplace" style="display: grid;"><button class="playbuttonextra btn btn-primary" onclick="openiframe(this,&quot;PV&quot;)">PV</button>
+            <button class="playbutton btn btn-primary" onclick="openiframe(this,1)" disabled="">1</button>
+            <button class="playbutton btn btn-primary" onclick="openiframe(this,2)">2</button>
+            <button class="playbutton btn btn-primary" onclick="openiframe(this,3)">3</button></div>
     <div id="streamtypecontainer">
     <div id="streamtype">GOGO Stream</div><div id="showrecomendbtn" onclick="showrecomendmenu();"><i class="glyphicon glyphicon-cog"></i> <span id="changetext">Change</span></div>
     <div id="sharebtn"><i class="glyphicon glyphicon-share-alt"></i> <span id="shareText">Share</span></div>
