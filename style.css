@@ -272,3 +272,30 @@ body {
         display: none;
     }
 }
+
+.related-single{
+  display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #c61327;
+    font-family: Roboto;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 40px 40px;
+    border-left: 15px solid #c61327;
+}
+p {
+  font-size: 22px;
+  text-align: left;  
+  display: block;
+    margin left: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-right: 2rem;
+    color: white;
+}
+
+h2 {
+  font-size: 35px;
+}
