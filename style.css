@@ -307,3 +307,89 @@ h2 {
     
 
 }
+
+.emaki-custom.warning {
+  border-color: #e01a4f;
+  color: #e01a4f;
+}
+
+.center{
+  margin-top: 100px;
+  margin-left: 300px;
+  width: 300px;
+  display: block;
+ }
+ .button4 {border-radius: 12px;}
+ .button {
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 4px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+}
+#epslistplace {
+  
+}
+.btn-primary {
+  color: #fff;
+  background-color: #1237f2;
+  border-color: #750aef;
+}
+.playbutton, .playbuttonextra {
+  padding: 4px;
+  font-size: 15px;
+}
+element.style {
+  display: grid;
+}
+#epslistplace {
+  margin-top: 5px;
+  max-height: 140px;
+  margin-bottom: 10px;
+  margin-left: 400px;
+  margin-right: 320px;
+  overflow-y: auto;
+  display: none;
+  opacity: .9;
+  gap: 4px;
+  grid-template-columns: repeat(auto-fill,minmax(47px,1fr));
+}
+
+#flexbottom {
+  display: none;
+  border-top: 1px solid rgba(73, 8, 235, 0.2);
+  padding: 10px 0 15px 0;
+  margin-bottom: -10px;
+  margin-left: 400px;
+  opacity: .85;
+  box-sizing: border-box;
+}
+
+element.style {
+  display: flex;
+}
+.epsavailable {
+  margin-right: 320px;
+  flex: 1;
+  font-size: 13px;
+  text-align: right;
+  color: rgba(255,255,255,.7);
+}
+.op{
+  width: calc(100% - 380px);
+}
