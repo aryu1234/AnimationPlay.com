@@ -393,3 +393,42 @@ element.style {
 .op{
   width: calc(100% - 380px);
 }
+
+.next-single {
+  font-size: 24px;
+  gap: 8px;
+  margin-bottom: 16px;
+  margin-left: 300px;
+  margin-top: 200px;
+  padding: 90px 90px;
+}
+
+.gomen{
+  font-size: 24px;
+  gap: 8px;
+  margin-bottom: 16px;
+  margin-left: 200px;
+  color: yellow;
+  padding: 90px 90px;
+
+}
+
+.grid-c1.w-grid-system, .web-layout.grid-c1 {
+  grid-template-columns: 1fr;
+  max-width: 1300px;
+}
+
+.menu-legal {
+  margin-bottom: 4rem;
+}
+
+.footer-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .75rem;
+  font-weight: 400;
+  color: #fff;
+  font-family: Roboto;
+  padding-bottom: 80px;
+}
