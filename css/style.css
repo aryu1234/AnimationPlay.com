@@ -1,0 +1,35 @@
+body {
+    font-family: 'Volkhov', serif;
+}
+
+.w-article.infinite-scroll .article_heading {
+    grid-column: 1/span 2;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list, .w-article {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: auto auto auto 1fr;
+    grid-column-gap: 40px;
+    align-items: start;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.w-content {
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+}
+
+p {
+    font-size: 22px;
+    font-family:'Volkhov', serif;
+}
+
+.heading_title {
+    font-size: 40px;
+  }
